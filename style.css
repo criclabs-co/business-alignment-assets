@@ -13,10 +13,29 @@
   --grey-8: --spectrum-global-color-gray-800;
   --grey-9: --spectrum-global-color-gray-900;
 
-  --blue-light: #F1F4FC;
-  --blue-blue: #4285F4;
+  --blue-light: #f1f4fc;
+  --blue-blue: #4285f4;
+  --blue-dark: #;
 
-  --red-light: #FFE6E6;
+  --red-light: #ffe6e6;
+  --red-red: #e26d69;
+  --red-dark: #800400;
+
+  --orange-light: #fff0e6;
+  --orange-orange: #f0955a;
+  --orange-dark: #803300;
+
+  --yellow-light: #fff7e6;
+  --yellow-yellow: #ffd26a;
+  --yellow-dark: #805900;
+
+  --green-light: #e6ffeb;
+  --green-green: #84c991;
+  --green-dark: #008017;
+
+  --purple-light: #e9e6ff;
+  --purple-purple: #806fde;
+  --purple-dark: #130080;
 }
 
 /* Typography */
@@ -45,7 +64,7 @@ progress::-webkit-progress-bar {
 }
 
 progress::-webkit-progress-value {
-  background-color:var(--blue-blue);
+  background-color: var(--blue-blue);
   border-radius: 4px;
 }
 
