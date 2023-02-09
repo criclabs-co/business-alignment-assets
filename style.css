@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Thai:400,500,600');
+
+/* Variables */
+
+:root {
+  --spectrum-heading-m-text-font-family: 'IBM Plex Sans Thai', serif;
+  --spectrum-body-m-text-font-family: 'IBM Plex Sans Thai', serif;
+  --spectrum-alias-body-text-font-family: 'IBM Plex Sans Thai', serif;
+  --spectrum-textfield-text-font-family: 'IBM Plex Sans Thai', serif;
+
+  --grey-1: --spectrum-global-color-gray-100;
+  --grey-2: --spectrum-global-color-gray-200;
+  --grey-3: --spectrum-global-color-gray-300;
+  --grey-4: --spectrum-global-color-gray-400;
+  --grey-5: --spectrum-global-color-gray-500;
+  --grey-6: --spectrum-global-color-gray-600;
+  --grey-7: --spectrum-global-color-gray-700;
+  --grey-8: --spectrum-global-color-gray-800;
+  --grey-9: --spectrum-global-color-gray-900;
+
+  --blue-light: #F1F4FC;
+  --blue-blue: #4285F4;
+
+  --red-light: #FFE6E6;
+}
+
+/* Fonts */
+
+.spectrum {
+  font-family: 'IBM Plex Sans Thai', serif;
+}
+
+/* Navigation */
+
+.links .svelte-1pkxpi2 {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  line-height: 1.4;
+}
+
+/* Progress */
+
+progress {
+  border-radius: 4px; 
+}
+
+progress::-webkit-progress-bar {
+  background-color: var(--blue-light);
+  border-radius: 4px;
+}
+
+progress::-webkit-progress-value {
+  background-color:var(--blue-blue);
+  border-radius: 4px;
+}
+
+/* Side Panel */
+
+#side-panel-container {
+  width: 600px !important;
+  max-width: 100% !important;
+}
