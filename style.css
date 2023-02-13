@@ -82,6 +82,31 @@ progress::-webkit-progress-value {
   padding-bottom: 0;
 }
 
+.spectrum-Button--primary {
+  color: white;
+  background-color: var(--green-green);
+  border-color: var(--green-green);
+}
+
+.spectrum-Button--primary:hover {
+  background-color: #48a058;
+  border-color: #48a058;
+}
+
+.spectrum-Button--secondary {
+  border-color: var(--grey-4);
+}
+
+.spectrum-Button--secondary:hover {
+  color: var(--grey-7);
+  background-color: var(--grey-2);
+  border-color: var(--grey-2);
+}
+
+.spectrum-Button--warning:hover {
+  border-color: var(--red-light);
+}
+
 /* Field Labels */
 
 .spectrum-FieldLabel {
