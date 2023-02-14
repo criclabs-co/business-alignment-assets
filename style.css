@@ -103,6 +103,10 @@ progress::-webkit-progress-value {
   border-color: var(--grey-2);
 }
 
+.spectrum-Button--warning {
+  border-color: var(--grey-4);
+}
+
 .spectrum-Button--warning:hover {
   border-color: var(--red-light);
 }
